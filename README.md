@@ -1,46 +1,75 @@
-# Getting Started with Create React App
+🚀 Test Performance Lab
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Приложение на React с корзиной товаров, фильтрацией и пагинацией. Используется фейковый сервер json-server.
 
-## Available Scripts
+🧰 Технологии
 
-In the project directory, you can run:
+React 19
 
-### `npm start`
+TypeScript
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Redux Toolkit
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+React Redux
 
-### `npm test`
+React Router v6
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+React Paginate
 
-### `npm run build`
+Axios
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+JSON Server
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Concurrently
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Normalize.css
 
-### `npm run eject`
+📆 Установка
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+git clone https://github.com/Sergey1a/performance-lab.git
+cd performance-lab
+npm install
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+▶️ Запуск проекта
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+npm start
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Команда запускает две задачи параллельно:
 
-## Learn More
+react-scripts start — запускает фронтенд на http://localhost:3000
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+json-server — запускает моковый API сервер на http://localhost:3001
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+📁 Структура проекта
+
+src/components — компоненты приложения
+
+src/redux — Redux slices и store
+
+server/db.json — моковые данные для json-server
+
+📦 Скрипты
+
+Скрипт
+
+Назначение
+
+npm start
+
+Запускает клиент и сервер
+
+npm run dev
+
+Только React приложение
+
+npm run server
+
+Только JSON-сервер
+
+npm run build
+
+Сборка проекта
+
+📆 Пример запроса к API
+
+GET http://localhost:3001/food?_page=1&_limit=4&_sort=title&_order=desc
