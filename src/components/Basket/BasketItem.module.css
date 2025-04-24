@@ -1,0 +1,77 @@
+.root {
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.title {
+    width: 33%;
+}
+
+.count {
+    width: 33%;
+}
+
+.price {
+    width: 33%;
+}
+
+.delete-item {
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+    border: 1px solid #000;
+    border-radius: 50%;
+    box-sizing: border-box;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fcfcfc;
+    color: #000000;
+    font-size: 12px;
+}
+
+.delete-item:hover {
+    background-color: #005bff;
+    color: white;
+}
+
+.button-minus {
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+    border: 1px solid #000;
+    border-radius: 50%;
+    box-sizing: border-box;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fcfcfc;
+    color: #000000;
+    font-size: 12px;
+}
+
+.button-minus:hover {
+    background-color: #005bff;
+    color: white;
+}
+
+.button-plus {
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+    border: 1px solid #000;
+    border-radius: 50%;
+    box-sizing: border-box;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fcfcfc;
+    color: #000000;
+    font-size: 12px;
+}
+
+.button-plus:hover {
+    background-color: #005bff;
+    color: white;
+}
