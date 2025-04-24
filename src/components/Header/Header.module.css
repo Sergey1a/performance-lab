@@ -1,0 +1,36 @@
+.header{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid rgba(168, 168, 168, 0.29);
+}
+
+.header-title {
+    margin: 0;
+}
+
+.header-basket{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    border: 1px solid rgba(168, 168, 168, 0.29);
+    font: inherit;
+    color: inherit;
+    background-color: white;
+}
+
+.header-basket:hover{
+    transform: scale(1.2);
+}
+
+.img{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    border: 1px solid rgba(168, 168, 168, 0.29);
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+}

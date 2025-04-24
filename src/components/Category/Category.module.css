@@ -1,0 +1,33 @@
+.category {
+    border-radius: 10px;
+}
+
+.list {
+    display: flex;
+    list-style-type: none;
+    padding: 10px;
+    margin: 0;
+}
+
+
+.button {
+    padding: 10px;
+    border-radius: 20px;
+    border:1px solid;
+    margin-right: 15px;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #005bff;
+    color: white;
+}
+
+.button.active {
+    background-color: #005bff;
+    color: white;
+    border-color: #005bff;
+}

@@ -1,0 +1,135 @@
+{"electronics": [
+  {
+    "id": 1,
+    "name": "Телефон",
+    "category": "Electronics",
+    "price": 7000,
+    "image": "https://img.freepik.com/free-photo/modern-stationary-collection-arrangement_23-2149309643.jpg?ga=GA1.1.1127568255.1744643542&semt=ais_hybrid&w=740"
+  },
+  {
+    "id": 2,
+    "name": "Гриль",
+    "category": "Electronics",
+    "price": 3500,
+    "image": "https://img.freepik.com/free-photo/modern-stationary-collection-arrangement_23-2149309643.jpg?ga=GA1.1.1127568255.1744643542&semt=ais_hybrid&w=740"
+  },
+  {
+    "id": 3,
+    "name": "Микроволновка",
+    "category": "Electronics",
+    "price": 2000,
+    "image": "https://img.freepik.com/free-photo/modern-stationary-collection-arrangement_23-2149309643.jpg?ga=GA1.1.1127568255.1744643542&semt=ais_hybrid&w=740"
+  },
+  {
+    "id": 4,
+    "name": "Пылесос",
+    "category": "Electronics",
+    "price": 3000,
+    "image": "https://img.freepik.com/free-photo/modern-stationary-collection-arrangement_23-2149309643.jpg?ga=GA1.1.1127568255.1744643542&semt=ais_hybrid&w=740"
+  },
+  {
+    "id": 5,
+    "name": "Ноутбук",
+    "category": "Electronics",
+    "price": 10000,
+    "image": "https://img.freepik.com/free-photo/modern-stationary-collection-arrangement_23-2149309643.jpg?ga=GA1.1.1127568255.1744643542&semt=ais_hybrid&w=740"
+  },
+  {
+    "id": 6,
+    "name": "Телевизор",
+    "category": "Electronics",
+    "price": 5000,
+    "image": "https://img.freepik.com/free-photo/modern-stationary-collection-arrangement_23-2149309643.jpg?ga=GA1.1.1127568255.1744643542&semt=ais_hybrid&w=740"
+  }
+],
+
+  "food": [
+    {
+      "id": 1,
+      "name": "Бургер",
+      "category": "Food",
+      "price": 500,
+      "image": "https://img.freepik.com/premium-photo/raw-pasta-with-tomatoes-spices-with-cutting-board-with-cheese_1309-44.jpg?ga=GA1.1.1127568255.1744643542&semt=ais_hybrid&w=740"
+    },
+    {
+      "id": 2,
+      "name": "Гриль",
+      "category": "Food",
+      "price": 400,
+      "image": "https://img.freepik.com/premium-photo/raw-pasta-with-tomatoes-spices-with-cutting-board-with-cheese_1309-44.jpg?ga=GA1.1.1127568255.1744643542&semt=ais_hybrid&w=740"
+    },
+    {
+      "id": 3,
+      "name": "Молоко",
+      "category": "Food",
+      "price": 120,
+      "image": "https://img.freepik.com/premium-photo/raw-pasta-with-tomatoes-spices-with-cutting-board-with-cheese_1309-44.jpg?ga=GA1.1.1127568255.1744643542&semt=ais_hybrid&w=740"
+    },
+    {
+      "id": 4,
+      "name": "Творог",
+      "category": "Food",
+      "price": 150,
+      "image": "https://img.freepik.com/premium-photo/raw-pasta-with-tomatoes-spices-with-cutting-board-with-cheese_1309-44.jpg?ga=GA1.1.1127568255.1744643542&semt=ais_hybrid&w=740"
+    },
+    {
+      "id": 5,
+      "name": "Шавуха",
+      "category": "Food",
+      "price": 300,
+      "image": "https://img.freepik.com/premium-photo/raw-pasta-with-tomatoes-spices-with-cutting-board-with-cheese_1309-44.jpg?ga=GA1.1.1127568255.1744643542&semt=ais_hybrid&w=740"
+    },
+    {
+      "id": 6,
+      "name": "Вода",
+      "category": "Food",
+      "price": 100,
+      "image": "https://img.freepik.com/premium-photo/raw-pasta-with-tomatoes-spices-with-cutting-board-with-cheese_1309-44.jpg?ga=GA1.1.1127568255.1744643542&semt=ais_hybrid&w=740"
+    }
+  ],
+
+  "clothes": [
+    {
+      "id": 1,
+      "name": "Футболка",
+      "category": "clothes",
+      "price": 1000,
+      "image": "https://img.freepik.com/premium-photo/pair-white-sneakers-side-view-isolated-white-background_94989-30.jpg?ga=GA1.1.1127568255.1744643542&semt=ais_hybrid&w=740"
+    },
+    {
+      "id": 2,
+      "name": "Рубашка",
+      "category": "clothes",
+      "price": 2000,
+      "image": "https://img.freepik.com/premium-photo/pair-white-sneakers-side-view-isolated-white-background_94989-30.jpg?ga=GA1.1.1127568255.1744643542&semt=ais_hybrid&w=740"
+    },
+    {
+      "id": 3,
+      "name": "Штаны",
+      "category": "clothes",
+      "price": 2500,
+      "image": "https://img.freepik.com/premium-photo/pair-white-sneakers-side-view-isolated-white-background_94989-30.jpg?ga=GA1.1.1127568255.1744643542&semt=ais_hybrid&w=740"
+    },
+    {
+      "id": 4,
+      "name": "Шапка",
+      "category": "clothes",
+      "price": 800,
+      "image": "https://img.freepik.com/premium-photo/pair-white-sneakers-side-view-isolated-white-background_94989-30.jpg?ga=GA1.1.1127568255.1744643542&semt=ais_hybrid&w=740"
+    },
+    {
+      "id": 5,
+      "name": "Носки",
+      "category": "clothes",
+      "price": 200,
+      "image": "https://img.freepik.com/premium-photo/pair-white-sneakers-side-view-isolated-white-background_94989-30.jpg?ga=GA1.1.1127568255.1744643542&semt=ais_hybrid&w=740"
+    },
+    {
+      "id": 6,
+      "name": "Куртка",
+      "category": "clothes",
+      "price": 5000,
+      "image": "https://img.freepik.com/premium-photo/pair-white-sneakers-side-view-isolated-white-background_94989-30.jpg?ga=GA1.1.1127568255.1744643542&semt=ais_hybrid&w=740"
+    }
+  ]
+}
