@@ -13,10 +13,10 @@ const Header = () => {
     return (
         <div className={styles.header}>
             <h1 className={styles["header-title"]}>HEADER</h1>
-            <button onClick={() => toggleOpen()} className={styles["header-basket"]}>
+            <button onClick={toggleOpen} className={styles["header-basket"]}>
                 <img src={basket} alt='basket'/>
             </button>
-            {open && <Basket value={toggleOpen} />}
+            {open && <Basket onClose={toggleOpen} />}
         </div>
     )
 }
