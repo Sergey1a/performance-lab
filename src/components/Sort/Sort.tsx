@@ -10,7 +10,6 @@ type SortOption = {
 }
 
 const sortOptions:SortOption[] = [
-
     { name: "названию (DESC)", sortProperty: SortPropertyEnum.TITLE_DESC },
     { name: "названию (ASC)", sortProperty:SortPropertyEnum.TITLE_ASC },
     { name: "цена (DESC)", sortProperty: SortPropertyEnum.PRICE_DESC },
@@ -21,7 +20,7 @@ const Sort = () => {
     const dispatch = useDispatch();
     const {sort} = useSelector(selectFilter);
 
-    const selected = (e:React.ChangeEvent<HTMLSelectElement>) => {
+    const onSelectSort = (e:React.ChangeEvent<HTMLSelectElement>) => {
       const res=  sortOptions.find(option=>option.sortProperty === e.target.value)
         if(res) {
             dispatch(setSort(res))
@@ -33,7 +32,7 @@ const Sort = () => {
             <label>Сортировка по: </label>
             <select
                 value={sort.sortProperty}
-                onChange={(e:React.ChangeEvent<HTMLSelectElement>) => {selected(e)}}
+                onChange={onSelectSort}
             >
                 {sortOptions.map((option:SortOption, i:number) => (
                     <option

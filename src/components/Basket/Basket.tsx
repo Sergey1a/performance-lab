@@ -6,10 +6,10 @@ import BasketItem from "./BasketItem";
 import {FC} from "react";
 
 type BasketState = {
-    value:() => void
+    onClose:() => void
 }
 
-const Basket:FC<BasketState> = (props) => {
+const Basket:FC<BasketState> = ({onClose}) => {
     const dispatch = useDispatch();
     const {items,totalPrice} = useSelector(selectBasket)
 
@@ -19,7 +19,7 @@ const Basket:FC<BasketState> = (props) => {
 
     return (
         <div className={styles.root}>
-            <button onClick={props.value} className={styles["close-basket"]}>X</button>
+            <button onClick={onClose} className={styles["close-basket"]}>X</button>
             <h2>Корзина товаров</h2>
             <div className={styles.title}>
                 <span>Наименование товара</span>

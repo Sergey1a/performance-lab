@@ -2,13 +2,10 @@ import {FC} from "react";
 import styles from './BasketItem.module.css'
 import {useDispatch} from "react-redux";
 import {addItems, deleteItem, itemMinus} from "../../redux/basketSlice/basket";
+import {Item} from "../../redux/itemSlice/types";
 
 
-type BasketProps = {
-    id: number;
-    name: string;
-    image: string;
-    price: number;
+export interface BasketProps extends Omit<Item, 'category'> {
     count: number;
 }
 
